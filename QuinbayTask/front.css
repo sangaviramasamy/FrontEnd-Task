@@ -1,0 +1,25 @@
+.category {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 6px;
+    height: 86px;
+    margin-left: 40px;
+    /* Add any category styles here */
+}
+
+.Images {
+    margin-left: 135px;
+    margin-right: 135px;
+    /* Add any image container styles here */
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-text {
+  text-align: center;
+  font-size: 12px;
+  padding-right: 41px;
+}

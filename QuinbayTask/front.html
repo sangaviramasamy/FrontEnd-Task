@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: whitesmoke;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Include Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Your Updated 5-Layout Page Example</title>
+</head>
+<body>
+
+    <style>
+        .category {
+            margin-top: 10px;
+            background-color: white;
+            border-radius: 6px;
+            height: 86px;
+            margin-left: 40px;
+            margin-right: 40px;
+            /* Add any category styles here */
+        }
+      
+        .Images {
+            margin-left: 135px;
+            margin-right: 135px;
+            /* Add any image container styles here */
+        }
+      
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+      
+        .image-text {
+          text-align: center;
+          font-size: 12px;
+          padding-right: 41px;
+        }
+      </style>
+  <div class="layout small-layout" style="background-color: white;height: 55px;">
+    <div class="search-bar" style="margin-left: 70px;">
+        <button type="button" style="    height: 27px;
+        width: 33px;
+        /* size: a3; */
+        background-color: whitesmoke;
+        border: none;"><i class="fas fa-search" ></i></button>
+      <input type="text" placeholder="Search for products brands and More..." style="width: 585px; margin-top: 12px; margin-left: 4px; border-radius: 9px; height: 25px;">
+      
+     
+        <a href="#" style="padding-left: 483px;"><i class="fa fa-user" style="margin-left: 25px;margin-right: 6px;"></i>Login</a>
+        <a href="#"><i class="fas fa-shopping-cart" style="margin-left: 25px;    margin-right: 5px;"></i>Cart</a>
+   
+    </div>
+   
+  </div>
+
+  <div class="layout">
+    <div class="category">
+        <div class="Images">
+            <div class="image-container">
+                <img src="images/grocery1.png" width="50" height="50" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+                <div class="image-text">Grocery</div>
+            </div>
+            <div class="image-container">
+                <img src="images/mobile.jpg" width="50" height="50" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+                <div class="image-text">Mobile</div>
+            </div>
+            <div class="image-container">
+              <img src="images/fashion.png" width="50" height="50" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+              <div class="image-text">Fashion</div>
+          </div>
+          <div class="image-container">
+            <img src="images/electronics.jpg" width="50" height="50" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+            <div class="image-text">Electronics</div>
+        </div>
+        <div class="image-container">
+          <img src="images/homes.png" width="50" height="50" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+          <div class="image-text">Homes</div>
+        </div>
+        <div class="image-container">
+          <img src="images/aplliances.jpg" width="50" height="50" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+          <div class="image-text">Appliances</div>
+        </div>
+        <div class="image-container">
+          <img src="images/travel.jpg" width="50" height="50" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+          <div class="image-text">Travel</div>
+         </div>
+        <div class="image-container">
+          <img src="images/bike.jpg" width="50" height="50" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+          <div class="image-text">Bike</div>
+        </div>
+           
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- Layout 3 -->
+  <div class="layout" style="background-color: white; border-radius: 6px; height:230px;width:980px;margin-left: 40px; margin-top: 20px;">
+    <div class="product-list">
+        <div class="image1-container">
+            <div style="padding-top: 8px; font-weight: bold;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-left: 40px;">
+                <p>Best Of Electronics</p>
+            </div>
+            <div class="image-container">
+                <img src="images/printer.png"onclick="addToCart('Printers added to cart!')" width="100" height="100" style="margin-top: 18px; margin-right: 50px; margin-left: 5px;padding-left: 30px;">
+                <div class="image-text">Printers</div>
+            <div class="image-text">From Rs.39999</div>
+            </div>
+            <div class="image-container">
+                <img src="images/projectore.jpg"onclick="addToCart('Projector added to cart!')" width="100" height="100" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+                <div class="image-text">Projectors</div>
+                <div class="image-text">From Rs.9999</div>
+            </div>
+            <div class="image-container">
+                <img src="images/shavers.png" onclick="addToCart('shavers added to cart!')"width="100" height="100" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+                <div class="image-text">Best of shavers</div>
+                <div class="image-text">From Rs.1640</div>
+            </div>
+            <div class="image-container">
+                <img src="images/antivirus.png"onclick="addToCart('anitvirus added to cart!')" width="100" height="100" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+                <div class="image-text">Projector</div>
+                <div class="image-text">From Rs.29</div>
+            </div>
+            <div class="image-container">
+                <img src="images/monitor.jpg" onclick="addToCart('monitor added to cart!')"width="100" height="100" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+                <div class="image-text">Monitors</div>
+                <div class="image-text">From Rs.6599</div>
+            </div>
+            <div class="image-container">
+                <img src="images/laptop.jpg"onclick="addToCart('laptop added to cart!')" width="100" height="100" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+                <div class="image-text">Laptop</div>
+                <div class="image-text">From Rs.35000</div>
+            </div>
+           
+        </div>
+      
+    </div>
+    <div class="Add Image">
+        <img src ="images/add.jpg" width="250" height="200" style="padding-left: 894px;margin-top: -200px; margin-left: 110px;"/>
+    </div>
+    
+  </div>
+
+
+
+
+
+
+  <!-- Layout 3 -->
+  <div class="layout" style="background-color: white; border-radius: 6px; height:200px;margin-left: 40px; margin-top: 20px;">
+    <div class="image1-container">
+        <div style="padding-top: 4px; font-weight: bold;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-left: 40px;">
+            <p>Beauty,Foods,Toys & More </p>
+        </div>
+        <div class="whole-image" style="margin-top: -10px;">
+        <div class="image-container">
+            <img src="images/tyre.jpg" onclick="addToCart('Tyre added to cart!')" width="100" height="100" style="margin-top: 18px; margin-right: 50px; margin-left: 5px;padding-left: 30px;">
+            <div class="image-text">Tyre</div>
+        <div class="image-text">From Rs.790</div>
+        </div>
+        <div class="image-container">
+            <img src="images/gearedcyle.jpg" onclick="addToCart('Geared cycle added to cart!')" width="100" height="100" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+            <div class="image-text">Geared Cycles</div>
+            <div class="image-text">up to 70% off</div>
+        </div>
+        <div class="image-container">
+            <img src="images/helmet.jpg"onclick="addToCart('Rider Helemets added to cart!')"  width="100" height="100" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+            <div class="image-text">Rider Helmets</div>
+            <div class="image-text">From 699</div>
+        </div>
+        <div class="image-container">
+            <img src="images/remote.jpg" onclick="addToCart('Remote control toys added to cart!')" width="100" height="100" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+            <div class="image-text">Remote Control Toys</div>
+            <div class="image-text">Up to 80% off</div>
+        </div>
+        <div class="image-container">
+            <img src="images/toy1.jpg"onclick="addToCart('anime toys added to cart!')" width="100" height="100" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+            <div class="image-text">Anime toys and tricycle</div>
+            <div class="image-text">Up to 70% off</div>
+        </div>
+        <div class="image-container">
+            <img src="images/cycle.png" onclick="addToCart('Non-geared cycles added to cart!')" width="100" height="100" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+            <div class="image-text">Non-Geared cycle</div>
+            <div class="image-text">Up to 40% off</div>
+        </div>
+        <div class="image-container">
+            <img src="images/guitar.jpg" onclick="addToCart('guitar added to cart!')" width="100" height="100" style="margin-top: 18px; margin-right: 50px; margin-left: 5px">
+            <div class="image-text">String instruments</div>
+            <div class="image-text">Up to 70% off</div>
+        </div>
+       </div>
+       
+    </div>
+    
+   
+     
+  
+  </div>
+
+  <script>
+    function addToCart(message) {
+        alert(message);
+    }
+</script>
+</body>
+</html>
